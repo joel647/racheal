@@ -1,0 +1,297 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        background-image: url(/frontpage.html/backg1.jpg) ;
+        background-repeat: no-repeat ;
+        background-size: cover;
+        position: relative;
+    
+        
+    } 
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        background-color: hsl(39, 56%, 49%);
+        
+    }
+
+    nav img{
+        width:70px;
+        padding: 2px;
+        margin-left: 60px;
+        border-radius: 25px;
+    
+    }
+
+    nav img::content{
+        transform: rotateX('angle 20');
+
+    }
+     nav li{
+        font-size: 25px;
+        list-style: none;
+        margin-right: 245px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 600px;
+        color:  hsl(39, 56%, 49%);
+    }
+
+    li a{
+        text-decoration: none; 
+
+
+    }
+    nav .list:hover{
+        text-shadow: 2px 4px red;
+        color: #fff;
+    } */
+
+    li a:hover{
+        transform: scaleX(1.5);
+        transition: 1s;
+        color:  hsl(39, 56%, 49%);
+        text-shadow:2px 2px #fff;
+    }
+    .container .birth{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+
+    .birth h1{
+        font-size: 67px;
+        line-height: 1.1;
+        font-family:georgia;
+        font-weight: 800;
+        color: transparent;
+        /* color:    hwb(214 15% 80% / 0.993); */
+        padding: 25px 30px;
+        margin-top: 250px;
+        margin-left: 20px;
+        text-transform: uppercase;
+    }
+
+    .happy{
+        background-image: url(/frontpage.html/wishes-come-truegif1.gif);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-background-clip: text;
+    
+    }
+    .birth img{
+        width: 400px;
+        margin: 60px;
+        transition: transform 1.2 ease-in-out;
+        border-radius: 40px, 70px;
+       
+    }
+    
+    .birth img:hover{
+        translate: scale(1.2);
+    
+        transition: 1sec ease all;
+        transition-delay: 6sec;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 40px;
+
+    }
+
+    .pray{
+        width:100%;
+        height: 500px;
+        overflow-y: scroll;
+        background:transparent;
+        background-image: url(/frontpage.html/backg3.jpg);
+        background-position: top;
+        background-size: cover;
+        border: 4px solid hsla(9, 71%, 33%, 0.075);
+    }
+
+    .pra     h1{
+        text-align: center;
+        margin-top: 80px;
+        font-size:  40px;
+        padding: 20px;
+        font-family:georgia;
+        font-weight: 800;
+        text-transform: uppercase;
+        background:hsl(39, 56%, 49%);  
+        color:#FAE9B6 ;
+    }
+
+    .pray p{
+    
+        margin-bottom: 30px;
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: 600;
+        color:#ffffff77;
+    }
+
+    .bigday h1{
+        font-size: 80px;
+        font-weight: 800;
+        /* margin-bottom:4px; */
+        text-align: center;
+    }
+
+    .bigday p{
+        /* margin:4px ; */
+        font-size: 28px;
+        line-height: 45px;
+        font-style:italic;
+        padding: 25px;
+        margin-top: -78px;
+        font-family:lucida  sans;
+    }
+
+    .bigday img{
+        width: 600px;
+        border-radius: 40px;
+    }
+
+    .bigday img:hover{
+        transform: scaleX(1.5);
+        transition: 1sec ease all;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+    }
+
+    .bigday h1{
+        font-size: 60px;
+        margin-top: 20px;
+        margin-bottom: 60px;
+        color: hwb(214 15% 80% / 0.993);
+    }
+
+    .mrnigerdac{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+
+
+    }
+ 
+
+    .mr:hover{
+        translate: scaleX(2);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 10px 80px; 
+        height: 340px;     
+
+
+
+    }
+
+    .niger:hover{
+        translate: scaleX(1);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 20px 110px;   
+        height: 600px;     
+        
+    }
+
+    .dac:hover{
+        translate: scaleX(1);
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 10px 80px;  
+        padding: 30px;
+        margin-left: 20px;
+        height: 860px;     
+
+
+
+    }
+
+   
+    .come{
+        float: left;
+        margin: 12px;
+        
+    
+    }
+    .lief .come img{
+        width: 400px;
+        margin: 12px;
+    }
+   
+
+
+    .lief h1{
+        font-family: roboto-mono;
+        font-size: 65px;
+        font-weight: 600px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    .lief p{
+        font-family: menlo;
+        font-size: 25px;
+        margin-bottom: 80px;
+        margin: 30px;
+
+        
+    }
+    
+    .mr img{
+        width: 300px;
+
+
+       
+    }
+    
+    .niger img{
+        width: 400px;
+    }
+
+    .dac img{
+        width:300px;
+
+    }
+    h2{
+        line-height: 1.6;
+        font-size: 24px;
+        margin-bottom:40px;
+        /* font-family:; */
+    } 
+
+
+    .footer{
+       text-align: center;
+       background-color: #090909f6;
+
+    }
+
+
+     .footer h1{
+       
+        font-size: 40px;
+        font-family: system-ui;
+        text-align: center;
+        color: #ffffffb7;
+    }
+
+    
+    .footer p{
+        font-size: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+         margin-top: 10px; 
+         color: #ffffffa1; 
+
+    }
+

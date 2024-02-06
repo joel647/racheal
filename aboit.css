@@ -1,0 +1,301 @@
+    
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    
+
+    body{
+
+    background-image: url(/frontpage.html/backg1.jpg) ; 
+    background-repeat:repeat-y, no-repeat ;
+    background-size: cover;
+    position: relative;
+    background-position: bottom;
+   
+}
+ 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: sticky;
+    top: 0;
+    background-color: hsl(39, 56%, 49%);
+    
+}
+
+nav img{
+    width: 70px;
+    padding: 2px;
+    margin-left: 60px;
+    border-radius: 25px;
+}
+
+ nav li{
+    font-size: 25px;
+    list-style: none;
+    margin-right: 245px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+}
+
+li a{
+    text-decoration: none; 
+    
+
+}
+
+li a:hover{
+    transform: scaleX(1.5);
+    transition: 1s;
+    color:  hsl(39, 56%, 49%);
+    text-shadow:2px 2px #fff;
+}
+
+
+.mrniger{
+    display: grid;
+}
+
+
+
+
+ .toge {
+    background-image: url(/frontpage.html/happy-birthday-fireworksgif2.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color:rgba(58, 51, 50, 0.034) ;
+    text-transform: uppercase;
+    opacity: 2;
+    margin-top: 100px;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 45px;
+    padding: 20px;
+    margin: 10px;
+    font-family:roboto;
+    font-weight: 800px;
+} 
+
+  .toge h2{
+    background-color:rgba(58, 51, 50, 0.034) ;
+
+ }
+
+
+
+.mrniger p{
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    
+}
+
+.mrABC{
+    display: flex;
+     height: 1000px;
+    width: 1200px;
+     margin-left: 10px; 
+    gap: 60px;
+    padding: 60px
+
+
+    /* align-items: center;
+    justify-content: center; */
+    /* gap: 50px;
+    padding: 30px;  */
+    /* text-align: center; */
+}
+
+   .mrB{
+    width: 140px; 
+    
+} 
+
+.mrB p img{
+    border-radius:10px 60px;
+    width: 400px;
+}
+
+.mrC p img{
+    border-radius:10px 60px;
+
+    width: 300px;
+    margin: 20px;
+}
+
+.mrA p img{
+    
+    width:320px;
+}
+    .mrC{
+        width:360px ;
+    }
+
+    .mrC h1{
+        font-size: 30px;
+        font-family: Georgia;
+        text-align: center;
+        font-weight: 600;
+        color:rgba(12, 11, 26, 0.897);
+    }
+
+    .mrA h1{
+        font-size: 30px;
+        font-family: Georgia;
+        text-align: center;
+        font-weight: 600;
+        color:rgba(12, 11, 26, 0.897);
+    }
+
+    .mrB h1{
+        font-size: 30px;
+        font-family: Georgia;
+        text-align: center;
+        font-weight: 600;
+        color:rgba(12, 11, 26, 0.897);
+    }
+
+
+    .mrD h1{
+        font-size: 55px;
+        font-family: Georgia;
+        text-align: center;
+        font-weight: 600;
+        color:rgba(12, 9, 51, 0.815);
+        padding: 15px;
+        margin-top: 70px;
+    }
+    .mrD img{
+        width:95%;
+        height: 400px;
+        border-radius: 40px;
+        /* transform: scaleY(2); */
+    }
+
+    .mrD img:hover{
+        width:90%;
+        height: 400px;
+        border-radius: 160px 10px;
+        transform: scaleY(0.7); 
+
+        
+    }
+
+
+    .mrE h1{
+        font-size: 60px;
+        font-family: Georgia;
+        text-align: center;
+        font-weight: 600;
+        color:rgba(12, 9, 51, 0.815);
+        padding: 30px;
+        margin-top: 70px;
+    }
+
+    .colum{
+        column-count: 4;
+        column-width:160px ;
+        column-gap:10px ;
+        column-rule: 2px solid rgba(12, 11, 26, 0.897) ;
+    }
+
+    .colum p{
+        margin-top: 0;
+        margin-right: 4px;
+        margin-left: 8px;
+    }
+
+    .colum h3{
+        margin-top: 0;
+        font-size: 26px;
+        font-family: roboto ;
+        text-align: center;
+        padding: 10px;
+        background-color:rgba(18, 9, 51, 0.39);
+        background-image: url(/frontpage.html/happy-birthday-fireworksgif2.gif);
+        color: #fff;
+        break-inside: avoid;
+        break-before: column;
+    }
+
+
+    .mrA{
+        width:360px ;
+    }
+
+    .mrB{
+        width:360px ;
+    }
+
+.mrABC .mrB img{
+    width: 320px;
+    margin-right:400px;
+    margin: 20px;
+}
+
+.mrD{
+    text-align: center;
+}
+
+ .div{
+    background-color: hsl(39, 56%, 49%);    
+    
+    /* margin-top: 70px; */
+}
+
+.div h2{
+    font-size: 60px;
+    font-family: cochin;
+    color: #fff;
+    text-shadow: 4px 4px #5f150e;
+    margin-top: -20px;
+    text-align: center;
+
+}
+
+.div  img{
+    width: 400px;
+    height: 3%;
+    border-radius: 30% 4%;
+    padding: 70px;
+    margin-bottom :80px ;
+    margin-left: 400px;
+    box-shadow: 40px 40px #415c80ce ;
+    background-color: hsl(39, 56%, 49%);
+}
+
+.footer{
+    text-align: center;
+    background-color: #090909f6;
+
+ }
+
+
+  .footer h1{
+    
+     font-size: 40px;
+     font-family: system-ui;
+     text-align: center;
+     color: #ffffffb7;
+ }
+
+ 
+ .footer p{
+     font-size: 25px;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+      margin-top: 10px; 
+      color: #ffffffa1; 
+
+ }
+
+

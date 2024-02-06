@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image:  url(/frontpage.html/backg2.jpg) ; 
+    background-repeat:r no-repeat ;
+    background-size: cover;
+    position: relative;
+    background-position: bottom;
+    background-color: #4862852f ;
+    
+
+
+    
+} 
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: hsl(39, 56%, 49%);
+}
+
+nav img{
+    width: 70px;
+    padding: 3px;
+    margin-left: 60px;
+    border-radius: 25px;
+    /* margin-right: 00px; */
+}
+
+ nav li{
+    font-size: 25px;
+    list-style: none;
+    margin-right: 245px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    color: #fff;
+}
+
+li a{
+    text-decoration: none; 
+  
+
+}
+
+nav .list{
+    color: #fff;
+}
+
+li a:hover{
+    transform: scaleX(1.5);
+    transition: 0.5s;
+    text-shadow: 1px 1px white;
+    color:  hsl(39, 83%, 56%);;
+}
+
+ .container{
+    margin-top: 40px;
+} 
+
+ .con h1::first-letter{
+    font-size: 70px;
+    font-family: verdana;
+    text-shadow:3.5px 3.5px rgb(9, 62, 109);
+    transform: translate(2);
+   
+} 
+.con h1::first-letter:hover{
+    font-size: 70px;
+    font-family: verdana;
+    text-shadow:3.5px 3.5px rgb(9, 62, 109);
+    translate: scaleY(1);
+   
+} 
+
+.st {
+    font-size: 80px;
+    font-family: verdana;
+    text-shadow:3.5px 3.5px  rgb(9, 62, 109);
+    transform: scaleY(1);
+
+   
+} 
+
+
+
+.container  h1{
+    font-size: 27px;
+    text-align: center  ;
+    font-family: Arial, sans-serif;
+    font-weight: 800;
+    margin-left: 1100px;
+    color: hsl(39, 83%, 56%);
+    margin-top:50px;
+    position: fixed;
+   transform: rotateX('20deg'); 
+   /* background-color:  #37485e13     ;; */
+   padding: 20px;
+   text-shadow:2.5px 2.5px rgb(9, 62, 109)
+   
+}
+     .com{
+    background-image: url(/frontpage.html/happy-birthday-fireworksgif2.gif); 
+    background-position:center;
+    background-size: cover; 
+    margin-left: 130px;
+    width: 940px;
+    height: 450px;
+    border: 1.8px solid yellow; 
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    border-radius:75px 10px ; 
+
+
+} 
+
+
+video{
+   
+    margin-left: 13px; 
+    margin-bottom: 300px;
+    margin-top:30px;
+    padding: -40px;
+ 
+    background-repeat: no-repeat;
+     box-shadow: 10px, 10px, 10px, 10px rgba(0, 0, 0, 0.5 );
+     
+     
+}
+
+
+
+
+
+h2{
+    font-size: 65px;
+    text-align: center;
+    margin-right: 120px;
+    margin-top: 400px;
+}
+
+
+.david{
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: -70px;
+    gap: -30px;
+    margin-top: 30px;
+    
+}
+
+.daniel{
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:5px;
+    gap: -30px;
+    margin-top: 30px;
+}
+
+.Racheal{
+    display:inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right:5px;
+    gap: -30px;
+    margin-top: 30px;
+   
+}
+
+.badmus{
+    display: flex;
+}
+.message3{
+    margin-left: 60px;
+    margin-top: 200px;
+}
+
+.badmus.message33{
+    background-image: url(/frontpage.html/IMG_16990541824274399_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.message2{
+    margin-left: 100px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #090909f6;
+
+ }
+
+
+  .footer h1{
+    
+     font-size: 40px;
+     font-family: system-ui;
+     text-align: center;
+     color: #ffffffb7;
+ }
+
+ 
+ .footer p{
+     font-size: 25px;
+     font-family: 'Courier New', Courier, monospace;
+     text-align: center;
+      margin-top: 10px; 
+      color: #ffffffa1; 
+
+ }
+
+
+
+.message4{
+    margin-left: 170px;
+}
+
